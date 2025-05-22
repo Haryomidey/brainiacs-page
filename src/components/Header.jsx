@@ -16,6 +16,7 @@ export default function Header() {
         <nav className="hidden md:flex space-x-6">
           <Link to="/" className="text-muted hover:text-primary">Home</Link>
           <Link to="/about" className="text-muted hover:text-primary">About</Link>
+          <Link to="/portfolio" className="text-muted hover:text-primary">Portfolio</Link>
           <Link to="/contact" className="text-muted hover:text-primary">Contact</Link>
         </nav>
 
@@ -42,6 +43,7 @@ export default function Header() {
         <div className="p-6 flex flex-col space-y-4">
           <Link to="/" className="text-muted hover:text-primary" onClick={closeSidebar}>Home</Link>
           <Link to="/about" className="text-muted hover:text-primary" onClick={closeSidebar}>About</Link>
+          <Link to="/portfolio" className="text-muted hover:text-primary" onClick={closeSidebar}>Portfolio</Link>
           <Link to="/contact" className="text-muted hover:text-primary" onClick={closeSidebar}>Contact</Link>
         </div>
       </div>
