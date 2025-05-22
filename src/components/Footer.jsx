@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
         <div className="flex space-x-6 text-gray-400">
           <Link
-            to="/facebook"
+            to="https://www.facebook.com/share/1NsPGTRtTi/"
             className="hover:text-white transition-colors duration-300"
             aria-label="Facebook"
           >
