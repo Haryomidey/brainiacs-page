@@ -1,4 +1,4 @@
-import HomeImage from './home-image.avif';
+import HomeImage from './hero-image.png';
 import AboutImage from './about-image.avif';
 import ContactImage from './contact-us.avif';
 import PortfolioImage from './portfolio.avif';

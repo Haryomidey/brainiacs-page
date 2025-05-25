@@ -26,11 +26,12 @@ export default function Contact() {
           )}
           <iframe
             className="w-full h-64 rounded-lg relative z-0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.095409200669!2d6.553999814402888!3d9.613478093132846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd7be0a24de7f%3A0x9e6475e5e3e7ea4!2sMinna%2C%20Niger%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1716365346922!5m2!1sen!2sng"
-            allowFullScreen=""
+            src="https://www.google.com/maps?q=HOUSE+NO.+9,+LONDON+ST,+DUTSEN+KURA+GWARI,+MINNA,+NIGER,+NIGERIA&output=embed"
+            allowFullScreen
             loading="lazy"
             onLoad={() => setMapLoaded(true)}
           ></iframe>
+
         </div>
 
         <div className="mb-10 text-center">

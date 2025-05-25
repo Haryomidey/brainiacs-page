@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main>
       <Header />
-      <Hero title="About Us" subtitle="Learn more about our vision, mission, and the team behind our success." backgroundImage={images.AboutImage} />
+      <Hero title="About Us" subtitle="Learn more about our vision, mission, and the team behind our success." backgroundImage={images.HomeImage} />
       <section className="bg-light py-12">
         <AboutDetails />
       </section>
