@@ -50,17 +50,17 @@ export default function AboutDetails({ short = false }) {
   }
 
   const teamMembers = [
-    { name: "Alice Bright", role: "Designer", img: images.UserOne },
-    { name: "Michael West", role: "Developer", img: images.UserTwo },
-    { name: "Sandra Lee", role: "Content Writer", img: images.UserThree },
-    { name: "Robert Paul", role: "Product Manager", img: images.UserFour },
+    { name: "Alice Bright", role: "Product Manager", img: images.CEO },
+    { name: "Michael West", role: "Frontend Developer", img: images.FrontendDeveloper },
+    { name: "Robert Paul", role: "Backend Developer", img: images.Secretary },
+    { name: "Sandra Lee", role: "Fullstack developer", img: images.FullstackDeveloper },
   ]
 
   const executives = [
-    { name: "Jane Doe", role: "Chief Executive Officer", img: images.CEO },
-    { name: "John Smith", role: "Chief Technology Officer", img: images.CTO },
-    { name: "Emily Johnson", role: "Chief Operating Officer", img: images.COO },
-    { name: "David Lee", role: "Chief Marketing Officer", img: images.CMO },
+    { name: "Anas Ahmad", role: "Chief Executive Officer", img: images.CEO },
+    { name: "Muhammad Salisu Kagara", role: "Chief Technology Officer", img: images.CTO },
+    { name: "Mohammed Awwal", role: "IT Consultant", img: images.FullstackDeveloper },
+    { name: "Hussainni Shuaibu", role: "Secretary", img: images.Secretary },
   ]
 
   return (
@@ -79,8 +79,7 @@ export default function AboutDetails({ short = false }) {
                   alt={name}
                   className="rounded-2xl w-full h-72 object-cover transition-transform duration-300 hover:scale-105 shadow-lg"
                 />
-                <h4 className="mt-4 text-lg font-semibold">{name}</h4>
-                <p className="text-gray-600 text-sm">{role}</p>
+                <p className="text-gray-600 text-base mt-2 sm:text-lg font-semibold">{role}</p>
               </div>
             ))}
           </div>
@@ -104,8 +103,7 @@ export default function AboutDetails({ short = false }) {
                     alt={name}
                     className="rounded-2xl h-56 w-full object-cover transition-transform duration-300 hover:scale-105 shadow-md"
                   />
-                  <h4 className="mt-3 text-base font-semibold">{name}</h4>
-                  <p className="text-sm text-gray-500">{role}</p>
+                  <p className="text-base mt-2 sm:text-lg font-semibold text-gray-500">{role}</p>
                 </div>
               ))}
             </div>

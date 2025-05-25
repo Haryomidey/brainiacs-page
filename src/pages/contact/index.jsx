@@ -4,7 +4,7 @@ import Hero from "../../components/Hero"
 import ContactForm from "../../components/ContactForm"
 import Footer from "../../components/Footer"
 import { images } from "../../assets/images"
-import { FaWhatsapp, FaInstagram, FaLinkedin, FaFacebookF } from "react-icons/fa6"
+import { FaWhatsapp, FaInstagram, FaLinkedin, FaFacebookF, FaXTwitter } from "react-icons/fa6"
 
 export default function Contact() {
   const [mapLoaded, setMapLoaded] = useState(false)
@@ -36,8 +36,8 @@ export default function Contact() {
         <div className="mb-10 text-center">
           <h2 className="text-xl font-semibold mb-4">Connect with us</h2>
           <div className="flex justify-center gap-6 text-2xl text-primary">
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
-              <FaWhatsapp />
+            <a href="https://x.com/globalbrainiacs?s=21" target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 transition">
+              <FaXTwitter />
             </a>
             <a href="https://instagram.com/dummyprofile" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition">
               <FaInstagram />

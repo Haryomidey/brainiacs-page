@@ -17,7 +17,7 @@ export default function Footer() {
             <FaFacebookF size={20} />
           </Link>
           <Link
-            to="/twitter"
+            to="https://x.com/globalbrainiacs?s=21"
             className="hover:text-white transition-colors duration-300"
             aria-label="Twitter"
           >

@@ -6,7 +6,8 @@ import {
     SiTailwindcss, 
     SiMongodb, 
     SiPostgresql, 
-    SiDocker 
+    SiDocker,
+    SiLaravel
 } from "react-icons/si"
 import { MdBusinessCenter, MdOutlineSecurity } from "react-icons/md"
 import CTA from "../../components/CTA"
@@ -134,9 +135,13 @@ const Portfolio = () => {
                         <p className="bg-gray-100 px-4 py-2 rounded-full flex items-center gap-2">
                             <FaAws  className="text-yellow-500" /> <span className="text-sm sm:text-base">AWS</span>
                         </p>
-                        <p className="bg-gray-100 px-4 py-2 rounded-full flex items-center gap-2">
+                        {/* <p className="bg-gray-100 px-4 py-2 rounded-full flex items-center gap-2">
                             <SiDocker className="text-blue-600" /> <span className="text-sm sm:text-base">Docker</span>
+                        </p> */}
+                        <p className="bg-gray-100 px-4 py-2 rounded-full flex items-center gap-2">
+                            <SiLaravel className="text-red-600" /> <span className="text-sm sm:text-base">Laravel</span>
                         </p>
+
                     </div>
                 </div>
 

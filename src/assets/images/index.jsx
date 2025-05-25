@@ -3,13 +3,13 @@ import AboutImage from './about-image.avif';
 import ContactImage from './contact-us.avif';
 import PortfolioImage from './portfolio.avif';
 import UserOne from './user-1.avif';
-import UserTwo from './user-2.avif';
-import UserThree from './user-3.avif';
+import FrontendDeveloper from './front-end-dev.jpg';
+import BackendDeveloper from './user-3.avif';
 import UserFour from './user-4.avif';
-import CEO from './executive-1.avif';
-import CTO from './executive-2.avif';
-import CMO from './executive-3.avif';
-import COO from './executive-4.avif';
+import CEO from './ceo.jpg';
+import CTO from './cto.jpg';
+import Secretary from './secretary.jpg';
+import FullstackDeveloper from './full-stack-dev.jpg';
 
 export const images = {
     HomeImage,
@@ -17,11 +17,11 @@ export const images = {
     ContactImage,
     PortfolioImage,
     UserOne,
-    UserTwo,
-    UserThree,
+    FrontendDeveloper,
+    BackendDeveloper,
     UserFour,
     CEO,
     CTO,
-    CMO,
-    COO,
+    Secretary,
+    FullstackDeveloper,
 };

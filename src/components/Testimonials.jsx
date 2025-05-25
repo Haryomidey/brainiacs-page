@@ -1,7 +1,7 @@
 const testimonials = [
-  { name: 'Jane Doe', quote: 'Amazing team! They really transformed our digital strategy.' },
-  { name: 'John Smith', quote: 'Reliable and efficient service. Highly recommended.' },
-  { name: 'Sarah Wilson', quote: 'Helped us scale our operations with innovative solutions.' },
+  { name: 'Olawale Johnson', quote: 'Amazing team! They really transformed our digital strategy.' },
+  { name: 'Ismail Abubakar', quote: 'Reliable and efficient service. Highly recommended.' },
+  { name: 'Ridwan Mohammed', quote: 'Helped us scale our operations with innovative solutions.' },
 ]
 
 export default function Testimonials() {
