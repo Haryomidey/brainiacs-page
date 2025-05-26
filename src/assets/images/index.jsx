@@ -3,7 +3,7 @@ import AboutImage from './about-image.avif';
 import ContactImage from './contact-us.avif';
 import PortfolioImage from './portfolio.avif';
 import UserOne from './user-1.avif';
-import FrontendDeveloper from './front-end-dev.jpg';
+import FrontendDeveloper from './front-end-dev.png';
 import BackendDeveloper from './user-3.avif';
 import UserFour from './user-4.avif';
 import CEO from './ceo.jpg';
