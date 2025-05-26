@@ -9,7 +9,7 @@ import UserFour from './user-4.avif';
 import CEO from './ceo.jpg';
 import CTO from './cto.jpg';
 import Secretary from './secretary.jpg';
-import FullstackDeveloper from './full-stack-dev.jpg';
+import FullstackDeveloper from './full-stack-dev.png';
 
 export const images = {
     HomeImage,
